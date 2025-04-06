@@ -560,27 +560,26 @@
             </li>
           </ul>
         </div>
-        <form class="footer-form">
-          <h3 class="footer-form-title">Subscribe</h3>
-          <div class="footer-form-action">
+        <div class="footer-form-wrap">
+          <p class="footer-form-title">Subscribe</p>
+          <form class="footer-form">
             <label aria-label="footer-email" class="footer-form-lable">
               <input
                 type="email"
                 name="email"
-                id="email"
                 placeholder="E-mail"
                 class="footer-form-input"
               />
             </label>
             <button type="submit" class="footer-form-btn">
               Subscribe
-              <span
-                ><svg class="footer-form-icon" width="24" height="20">
-                  <use href="./images/send-icon.svg#icon-send"></use></svg
-              ></span>
+
+              <svg class="footer-form-icon" width="24" height="24">
+                <use href="./images/send-icon.svg#icon-send"></use>
+              </svg>
             </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -594,21 +593,19 @@
           </svg>
         </button>
 
-        <h3 class="modal-title">
-          Leave your contacts and we will call you back
-        </h3>
+        <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-form-field">
-            <label for="name" class="modal-form-label">Name</label>
+            <label for="user-name" class="modal-form-label">Name</label>
             <div class="model-input-wrap">
               <input
                 class="modal-form-input"
                 type="text"
-                name="name"
-                id="name"
+                name="user-name"
+                id="user-name"
                 required
               />
-              <svg class="modal-input-icon" width="18" height="18">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/user-icon.svg#icon-user"></use>
               </svg>
             </div>
@@ -624,7 +621,7 @@
                 id="phone"
                 required
               />
-              <svg class="modal-input-icon" width="18" height="18">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/phone-icon.svg#icon-phone"></use>
               </svg>
             </div>
@@ -640,19 +637,18 @@
                 id="email"
                 required
               />
-              <svg class="modal-input-icon" width="18" height="18">
+              <svg class="modal-input-icon" width="18" height="24">
                 <use href="./images/email-icon.svg#icon-email"></use>
               </svg>
             </div>
           </div>
 
-          <div class="modal-form-field">
-            <label for="Comment" class="modal-form-label">Comment</label>
+          <div class="modal-form-field modal-form-field-comment">
+            <label for="user-comment" class="modal-form-label">Comment</label>
             <textarea
               class="modal-form-textarea"
-              type="text"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
               rows="6"
             ></textarea>
@@ -661,13 +657,13 @@
           <div class="modal-form-checkbox-box">
             <input
               type="checkbox"
-              class="modal-form-checkbox"
+              class="modal-form-checkbox visually-hidden"
               name="policy"
-              id="policy"
+              id="user-privacy"
               value="true"
             />
-            <label for="policy" class="modal-form-checkbox-text">
-              <span lass="modal-checkbox">
+            <label for="user-privacy" class="modal-form-checkbox-text">
+              <span class="modal-checkbox">
                 <svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/check-icon.svg#icon-check"></use>
                 </svg> </span
