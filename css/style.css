@@ -270,7 +270,7 @@ li {
 
 .modal-close-btn:hover svg,
 .modal-close-btn:focus svg {   
-   fill: #f4f4fd;   
+   fill: #fff;
 }
 
 .modal-title {
@@ -388,6 +388,9 @@ li {
    color: #8e8f99;
    display: flex;
    align-items: center;
+   span {
+      display: inline-flex;
+   }
 }
 
 .modal-checkbox {
