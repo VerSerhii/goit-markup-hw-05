@@ -734,12 +734,16 @@ li {
    fill: #f4f4fd;
  }
 
+ .footer-form-wrap {
+   margin-left: 80px;
+ }
+ 
  .footer-form {
    display: flex;
    align-items: center;
    justify-content: space-between;
    gap: 24px;
-   margin-left: 80px;
+   
  } 
 
  .footer-form-title {
